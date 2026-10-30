@@ -1,0 +1,22 @@
+# Srodowisko R/Bioconductor: DESeq2 + apeglm, operacje na zakresach genomowych
+# Instalacja:  mamba env create -f envs/rbp-r.yml
+name: rbp-r
+channels:
+  - conda-forge
+  - bioconda
+  - nodefaults
+dependencies:
+  - r-base>=4.3
+  - bioconductor-deseq2
+  - bioconductor-apeglm
+  - bioconductor-edger
+  - bioconductor-limma
+  - bioconductor-genomicranges
+  - bioconductor-rtracklayer
+  - bioconductor-genomicfeatures
+  - bioconductor-biocparallel
+  - r-data.table
+  - r-optparse
+  - r-ggplot2
+  - r-dplyr
+  - r-readr

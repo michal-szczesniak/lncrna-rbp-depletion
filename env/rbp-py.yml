@@ -1,0 +1,29 @@
+# Srodowisko Pythona: metadane ENCODE, pobieranie, bigWig/BAM, EISA, NMF, Snakemake
+# Instalacja:  mamba env create -f envs/rbp-py.yml
+name: rbp-py
+channels:
+  - conda-forge
+  - bioconda
+  - nodefaults
+dependencies:
+  - python=3.11
+  - pandas>=2.0
+  - numpy
+  - scipy
+  - requests
+  - urllib3
+  - tqdm
+  - pyyaml
+  - pybigwig
+  - pysam
+  - pyranges
+  - bedtools
+  - samtools
+  - htslib
+  - scikit-learn
+  - statsmodels
+  - matplotlib
+  - seaborn
+  - snakemake-minimal>=8
+  - awscli
+  - aria2

@@ -1,0 +1,9 @@
+data/
+results/
+logs/
+envs/
+*.tar.gz
+*.zip
+*.bam
+*.bigWig
+__pycache__/
